@@ -19,7 +19,7 @@ export const routes: RouterConfig = [
     component: HeroesComponent
   },
   {
-    path: 'hero/:id',
+    path: 'detail/:id',
     component: HeroDetailComponent
   }
 ];

@@ -7,10 +7,16 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'angular2-in-memory-web-api': 'vendor/angular2-in-memory-web-api'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'angular2-in-memory-web-api': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'index.js'
+  }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -29,6 +35,7 @@ const barrels: string[] = [
 
   // Thirdparty barrels.
   'rxjs',
+  'angular2-in-memory-web-api',
 
   // App specific barrels.
   'app',
